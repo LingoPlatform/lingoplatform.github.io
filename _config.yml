@@ -13,7 +13,7 @@ presskit_download_link:
 app_icon: /assets/appicon.png # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: Lingo App # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description: Переводчик в смартфоне. Мгновенный доступ к услугам профессиональных переводчиков
+app_description: Личный переводчик в вашем смартфоне. Переводите звонки и встречи с иностранцами с удаленным дипломированным переводчиком.
 
 enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -59,9 +59,9 @@ topbar_color: "#000000"
 topbar_transparency: 0.0
 topbar_title_color: "#ffffff"
 
-cover_image: assets/headerimage.png # Replace with alternative image path or image URL.
-cover_overlay_color: "#363b3d"
-cover_overlay_transparency: 0.2
+cover_image: https://images.unsplash.com/photo-1558403194-611308249627?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80 # Replace with alternative image path or image URL.
+cover_overlay_color: "#000000"
+cover_overlay_transparency: 0.5
 
 device_color: black # Set to: blue, black, yellow, coral or white.
 
@@ -102,7 +102,6 @@ collections:
   pages:
     output: true
     permalink: /:path/
-
 # Markdown rendering
 markdown: kramdown
 lsi: false
