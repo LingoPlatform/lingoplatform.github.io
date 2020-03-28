@@ -1,5 +1,5 @@
 #page title
-page_title: Lingo # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title: Lingo — личный переводчик в вашем смартфоне # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id: 1478569270 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -104,13 +104,13 @@ collections:
     permalink: /:path/
 # Markdown rendering
 markdown: kramdown
-lsi: false
-safe: true
-source: https://github.com/LingoPlatform/lingoplatform.github.io
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+# lsi: false
+# safe: true
+# source: https://github.com/LingoPlatform/lingoplatform.github.io
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge
