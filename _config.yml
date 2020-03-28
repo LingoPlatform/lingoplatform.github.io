@@ -12,8 +12,8 @@ presskit_download_link:
 
 app_icon: /assets/appicon.png # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: Lingo App # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description: Личный переводчик в вашем смартфоне. Профессиональный голосовой перевод в онлайн-режиме когда переводчик нужен "здесь и сейчас"
+app_price: Личный переводчик в вашем смартфоне. # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description: Профессиональный голосовой перевод в любое время дня и ночи. Вам больше не надо заранее искать переводчика, договариваться о времени, платить сверхурочно за срочность или работу в ночные часы.
 
 enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -30,29 +30,29 @@ youtube_username:
 
 # Feature List                            Edit, add or remove features to be presented.
 features:
-  - title: Перевод телефонного разговора
-    description: Профессиональный голосовой перевод телефонных звонков в онлайн режиме
+  - title: Удалённое общение — перевод телефонного звонка
+    description: Приложение подключает к разговору с иностранцем переводчика посредством 3-хсторонней конференц-связи. Вы всего лишь выбираете нужный контакт в записной книжке телефона и язык, на котором говорит собеседник.
     fontawesome_icon_name: magic
 
-  - title: Перевод диалога - когда собеседник рядом
-    description: Пользуйтесь
+  - title: Когда собеседник рядом — перевод на громкой связи
+    description: Чтобы начать общение, вам достаточно выбирть язык собеседника, который находится рядом и после подключения удаленного перевдчика перевести телефон на громкую связь и начать общение с иностранцем.
     fontawesome_icon_name: mobile
 
-  - title: Мультиязычность
-    description: Английский, китайский, испанский, арабский, французский, немецкий, шведский и другие языки
-    fontawesome_icon_name: play-circle
+  - title: Удобный способ оплаты
+    description: По окончании разговора система автоматически списывает необходимую сумму с привязанной банковской карты. Тарификация учитывается посекундно.
+    fontawesome_icon_name: credit-card
 
-  - title: Конфиденциально
-    description: Разговоры для переводчика анонимны. Ваш номер и имя не отображаются
+  - title: Оплата только за фактическое время перевода
+    description: Теперь только вы решаете на какое время вам нужен переводчик — если вы пообщались с собеседником 7 минут и 20 секунд, вы заплатите ровно за 7 минут и 20 секунд и ни копейкой больше.
+    fontawesome_icon_name: adjust
+
+  - title: В любое время и в любом месте где есть интернет
+    description: Вам понадобился переводчик в нерабочее время или в регионе, где нет нужных переводчиков? В Lingo переводчики доступны 24/7 и в любом месте, где есть Интернет.
+    fontawesome_icon_name: adjust
+
+  - title: Конфиденциальность превыше всего
+    description: Разговоры для переводчика всегда анонимны — ваш телефонный номер и номер вашего собеседника всегда скрыты от переводчика и не могут быть разглашены третьим лицам.
     fontawesome_icon_name: sync
-
-  - title: Переводчики доступны 24/7
-    description: Переводчики доступны круглосуточно
-    fontawesome_icon_name: adjust
-
-  - title: Переводчики доступны 24/7
-    description: Переводчики доступны круглосуточно
-    fontawesome_icon_name: adjust
 
 # Theme Settings
 topbar_color: "#000000"
